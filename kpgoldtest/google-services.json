@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "989533189557",
+    "firebase_url": "https://kp-old-test.firebaseio.com",
+    "project_id": "kp-old-test",
+    "storage_bucket": "kp-old-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989533189557:android:75b35c5d00025f092015fc",
+        "android_client_info": {
+          "package_name": "com.test.kpgold"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989533189557-c8c963pm4fas6s8a83uqbnuqhf7uab94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNPTA4gnflTyy2Rh1wO7WH0YFBFmkgLUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989533189557-c8c963pm4fas6s8a83uqbnuqhf7uab94.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

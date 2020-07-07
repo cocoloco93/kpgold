@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorslpash"
+    android:orientation="vertical"
+    tools:context=".HomePageActivity">
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="HOME PAGE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_input"
+        android:text="In PUT Data"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorslpash"
+        android:background="@color/colorslblack"/>
+    <Button
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_output"
+        android:text="Read "
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorslpash"
+        android:background="@color/colorslblack"/>
+
+
+
+
+</LinearLayout>

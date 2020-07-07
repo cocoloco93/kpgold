@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorslpash"
+    tools:context=".InputActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/txt_other"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Others"
+            android:textColor="@color/colorslblack"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/ed_others1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_other"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_outline_rectangle"
+            android:padding="12dp"
+            android:hint="Item"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/ed_others2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ed_others1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_outline_rectangle"
+            android:padding="12dp"
+            android:hint="Item"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/ed_others3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ed_others2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_outline_rectangle"
+            android:padding="12dp"
+            android:hint="Item"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/ed_others4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ed_others3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_outline_rectangle"
+            android:padding="12dp"
+            android:hint="Item"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/ed_others11"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_other"
+            android:layout_marginLeft="220dp"
+            android:layout_alignLeft="@+id/ed_others1"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_outline_rectangle"
+            android:padding="12dp"
+            android:hint="Price"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/ed_others21"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ed_others11"
+            android:layout_marginLeft="220dp"
+            android:layout_alignLeft="@+id/ed_others2"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_outline_rectangle"
+            android:padding="12dp"
+            android:hint="Price"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/ed_others31"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ed_others21"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignLeft="@+id/ed_others3"
+            android:background="@drawable/bg_outline_rectangle"
+            android:padding="12dp"
+            android:hint="Price"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/ed_others41"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ed_others31"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignLeft="@+id/ed_others4"
+            android:background="@drawable/bg_outline_rectangle"
+            android:padding="12dp"
+            android:hint="Price"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed_others41"
+
+            android:id="@+id/bt_nextpage"
+            android:text="Previous Page"
+            android:background="#262626"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorslpash"/>
+
+        <Button
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed_others41"
+            android:layout_marginLeft="215dp"
+            android:id="@+id/bt_previouspage"
+            android:text="Next Page"
+            android:background="#262626"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorslpash"/>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

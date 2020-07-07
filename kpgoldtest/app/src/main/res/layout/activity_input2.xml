@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorslpash"
+    tools:context=".InputActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Car Polish"
+            android:textColor="@color/colorslblack"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+
+            />
+
+
+        <TextView
+            android:id="@+id/txtcycle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/bg_outline_rectangle"
+            android:padding="12dp"
+            android:text="Cycle"
+            android:textColorHint="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txttaxi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/txtcycle"
+            android:textSize="16dp"
+            android:padding="12dp"
+            android:background="@drawable/bg_outline_rectangle"
+            android:textStyle="bold"
+            android:text="Taxi" />
+
+        <TextView
+            android:id="@+id/txtmeduim"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/txttaxi"
+            android:textSize="16dp"
+            android:padding="12dp"
+            android:background="@drawable/bg_outline_rectangle"
+            android:textStyle="bold"
+            android:text="Medium" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txtsuv"
+            android:layout_width="100dp"
+            android:layout_below="@id/txtmeduim"
+            android:textSize="16dp"
+            android:padding="12dp"
+            android:background="@drawable/bg_outline_rectangle"
+            android:textStyle="bold"
+            android:text="SUV" />
+
+        <TextView
+            android:id="@+id/txtlargevehicle"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/txtsuv"
+            android:textSize="16dp"
+            android:padding="12dp"
+            android:background="@drawable/bg_outline_rectangle"
+            android:textStyle="bold"
+            android:text="Large Vehicle" />
+
+
+
+        <TextView
+            android:id="@+id/txttotalcost"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/txtlargevehicle"
+            android:textSize="16dp"
+            android:padding="12dp"
+            android:background="@drawable/bg_outline_rectangle"
+            android:textStyle="bold"
+            android:text="Cost" />
+
+        <TextView
+            android:id="@+id/premium"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="40dp"
+            android:textSize="16dp"
+            android:padding="12dp"
+            android:background="@drawable/bg_outline_rectangle"
+            android:textStyle="bold"
+            android:text="Premium " />
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="40dp"
+            android:textSize="16dp"
+            android:padding="12dp"
+            android:background="@drawable/bg_outline_rectangle"
+            android:textStyle="bold"
+            android:text="Standard" />
+
+        <CheckBox
+            android:id="@+id/ckbcycp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="100dp"
+            android:buttonTint="#EA0505"
+            />
+        <CheckBox
+            android:id="@+id/ckbtaxip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/ckbcycp"
+            android:buttonTint="#EA0505"
+
+            />
+        <CheckBox
+            android:id="@+id/ckbmediump"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/ckbtaxip"
+            android:buttonTint="#EA0505"
+
+            />
+        <CheckBox
+            android:id="@+id/ckbsuvp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/ckbmediump"
+            android:buttonTint="#EA0505"
+
+            />
+        <CheckBox
+            android:id="@+id/ckblvehiclep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/ckbsuvp"
+            android:buttonTint="#EA0505"
+
+            />
+
+        <CheckBox
+            android:id="@+id/ckbcycn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="100dp"
+            android:buttonTint="#EA0505"
+            />
+        <CheckBox
+            android:id="@+id/ckbtaxin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="40dp"
+            android:buttonTint="#EA0505"
+            android:layout_below="@id/ckbcycn"
+
+            />
+        <CheckBox
+            android:id="@+id/ckbmediumn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/ckbtaxin"
+            android:buttonTint="#EA0505"
+
+            />
+        <CheckBox
+            android:id="@+id/ckbsuvn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/ckbmediumn"
+            android:buttonTint="#EA0505"
+
+            />
+        <CheckBox
+            android:id="@+id/ckblvehiclen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/ckbsuvn"
+            android:buttonTint="#EA0505"
+
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/txttotalcostbox"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="43dp"
+            android:layout_below="@id/ckblvehiclep"
+            android:textSize="16dp"
+            android:padding="12dp"
+            android:background="@drawable/bg_outline_rectangle"
+            android:textColorHint="#AD131313"
+            android:hint="9999ks"/>
+
+        <Button
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txttotalcostbox"
+
+            android:id="@+id/bt_nextpage"
+            android:text="Previous Page"
+            android:background="#262626"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorslpash"/>
+
+        <Button
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txttotalcostbox"
+            android:layout_marginLeft="215dp"
+            android:id="@+id/bt_previouspage"
+            android:text="Next Page"
+            android:background="#262626"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorslpash"/>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
